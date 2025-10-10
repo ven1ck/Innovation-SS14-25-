@@ -15,8 +15,8 @@ RELEASE_DIR = "release"
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "http://185.65.200.225:8080/"
-FORK_ID = "dctales"
+ROBUST_CDN_URL = "http://185.65.200.114:8080/"
+FORK_ID = "innovation-station"
 
 def main():
     parser = argparse.ArgumentParser()
