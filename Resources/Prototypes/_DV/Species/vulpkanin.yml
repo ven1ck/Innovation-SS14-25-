@@ -18,7 +18,7 @@
   id: Vulpkanin
   name: species-name-vulpkanin
   roundStart: true
-  sponsorOnly: false # CorvaxGoob-Sponsors
+  sponsorOnly: true # CorvaxGoob-Sponsors
   prototype: MobVulpkanin
   sprites: MobVulpkaninSprites
   defaultSkinTone: "#985629"

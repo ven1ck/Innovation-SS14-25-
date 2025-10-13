@@ -8,7 +8,7 @@
 - type: species
   id: Cyborg
   name: species-name-human
-  roundStart: true
+  roundStart: false
   prototype: BorgChassisSelectable
   sprites: CyborgSprites
   defaultSkinTone: "#fff9e2"
