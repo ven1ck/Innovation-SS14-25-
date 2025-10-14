@@ -1,12 +1,13 @@
 - type: entity
-  id: Aquarium
+  id: Aquariumussr
   parent: BaseStructureDynamic
   name: aquarium
   description: aquarium and fish
   components:
   - type: Sprite
-    sprite: _IS14/Structures/Decoration/aquarium.rsi
-    state: base
+    sprite: _IS14/Structures/Decoration/aquariumussr.rsi
+    drawdepth: Overdoors
+    state: aquariumussr
     noRot: true
   - type: Transform
     noRot: true
@@ -14,16 +15,11 @@
     fixtures:
       fix1:
         shape:
-          !type:PhysShapeCircle
-          radius: 0.2
+          !type:PhysShapeAabb
+          bounds: "-0.8,0,0.8,-1"
         density: 190
-        mask:
-        - MachineMask
         layer:
-        - Opaque
-        - MidImpassable
-        - HighImpassable
-        - BulletImpassable
+        - MobMask
   - type: InteractionOutline
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -35,3 +31,8 @@
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: InteractionPopup
+    interactSuccessString: comp-aquarium-knock
+    messagePerceivedByOthers: comp-aquariumu-knock
+    interactSuccessSound:
+      path: /Audio/Effects/glass_knock.ogg    
