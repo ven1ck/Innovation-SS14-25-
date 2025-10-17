@@ -1,0 +1,71 @@
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconExpeditionDirector
+  icon:
+    sprite: /Textures/_Is-14/Interface/Misc/job_icons.rsi
+    state: ExpeditionDirector
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconInspectorIOC
+  icon:
+    sprite: /Textures/_Is-14/Interface/Misc/job_icons.rsi
+    state: InspectorIOC
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNOK
+  icon:
+    sprite: /Textures/_Is-14/Interface/Misc/job_icons.rsi
+    state: NOK
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconNM
+  icon:
+    sprite: /Textures/_Is-14/Interface/Misc/job_icons.rsi
+    state: NM
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconDNIC
+  icon:
+    sprite: /Textures/_Is-14/Interface/Misc/job_icons.rsi
+    state: DNIC
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconGMS
+  icon:
+    sprite: /Textures/_Is-14/Interface/Misc/job_icons.rsi
+    state: GMS
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconGIS
+  icon:
+    sprite: /Textures/_Is-14/Interface/Misc/job_icons.rsi
+    state: GIS
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconRESO
+  icon:
+    sprite: /Textures/_Is-14/Interface/Misc/job_icons.rsi
+    state: RESO
+  allowSelection: false
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconSK
+  icon:
+    sprite: /Textures/_Is-14/Interface/Misc/job_icons.rsi
+    state: SK
+  allowSelection: false

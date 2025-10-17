@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "size": {
+        "x": 8,
+        "y": 8
+    },
+    "states": [
+        {
+            "name": "InspectorIOC"
+        },
+        {
+            "name": "ExpeditionDirector"
+        },
+        {
+            "name": "NOK"
+        },
+        {
+            "name": "NM"
+        },
+        {
+            "name": "DNIC"
+        },
+        {
+            "name": "GMS"
+        },
+        {
+            "name": "GIS"
+        },
+        {
+            "name": "RESO"
+        },
+        {
+            "name": "SK"
+        }
+    ]
+}
